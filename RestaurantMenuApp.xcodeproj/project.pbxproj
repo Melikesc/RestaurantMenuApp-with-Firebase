@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A45169432C41251D001CC929 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45169422C41251D001CC929 /* Category.swift */; };
+		A45169452C41252B001CC929 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45169442C41252B001CC929 /* MenuItem.swift */; };
+		A45169472C4125B9001CC929 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45169462C4125B9001CC929 /* DataService.swift */; };
+		A45169492C412664001CC929 /* MenuItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45169482C412664001CC929 /* MenuItemsView.swift */; };
 		A47059D62C3E5947002D1465 /* RestaurantMenuAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059D52C3E5947002D1465 /* RestaurantMenuAppApp.swift */; };
-		A47059D82C3E5947002D1465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059D72C3E5947002D1465 /* ContentView.swift */; };
 		A47059DA2C3E5949002D1465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47059D92C3E5949002D1465 /* Assets.xcassets */; };
 		A47059DD2C3E5949002D1465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47059DC2C3E5949002D1465 /* Preview Assets.xcassets */; };
 		A47059E72C3E5949002D1465 /* RestaurantMenuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059E62C3E5949002D1465 /* RestaurantMenuAppTests.swift */; };
 		A47059F12C3E5949002D1465 /* RestaurantMenuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059F02C3E5949002D1465 /* RestaurantMenuAppUITests.swift */; };
 		A47059F32C3E5949002D1465 /* RestaurantMenuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059F22C3E5949002D1465 /* RestaurantMenuAppUITestsLaunchTests.swift */; };
+		A4705A022C3E5AB8002D1465 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A012C3E5AB8002D1465 /* AdminView.swift */; };
+		A4705A042C3E5AE0002D1465 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A032C3E5AE0002D1465 /* WelcomeView.swift */; };
+		A4705A062C3E5D61002D1465 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A052C3E5D61002D1465 /* HomeView.swift */; };
+		A4705A082C3E6E7F002D1465 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4705A072C3E6E7F002D1465 /* GoogleService-Info.plist */; };
+		A4705A0B2C3E7025002D1465 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A4705A0A2C3E7025002D1465 /* FirebaseAuth */; };
+		A4705A0D2C3E7025002D1465 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A4705A0C2C3E7025002D1465 /* FirebaseFirestore */; };
+		A4705A0F2C3E7025002D1465 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A4705A0E2C3E7025002D1465 /* FirebaseFirestoreSwift */; };
+		A4705A112C3E7025002D1465 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A4705A102C3E7025002D1465 /* FirebaseStorage */; };
+		A4705A132C3E7510002D1465 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A122C3E7510002D1465 /* MapView.swift */; };
+		A4705A152C3E751A002D1465 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A142C3E751A002D1465 /* InfoView.swift */; };
+		A4705A172C3E78E9002D1465 /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A162C3E78E9002D1465 /* HomeContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A45169422C41251D001CC929 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A45169442C41252B001CC929 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		A45169462C4125B9001CC929 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A45169482C412664001CC929 /* MenuItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsView.swift; sourceTree = "<group>"; };
 		A47059D22C3E5947002D1465 /* RestaurantMenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantMenuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47059D52C3E5947002D1465 /* RestaurantMenuAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuAppApp.swift; sourceTree = "<group>"; };
-		A47059D72C3E5947002D1465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A47059D92C3E5949002D1465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47059DC2C3E5949002D1465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A47059E22C3E5949002D1465 /* RestaurantMenuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantMenuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +61,13 @@
 		A47059EC2C3E5949002D1465 /* RestaurantMenuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantMenuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47059F02C3E5949002D1465 /* RestaurantMenuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuAppUITests.swift; sourceTree = "<group>"; };
 		A47059F22C3E5949002D1465 /* RestaurantMenuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4705A012C3E5AB8002D1465 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		A4705A032C3E5AE0002D1465 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A4705A052C3E5D61002D1465 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4705A072C3E6E7F002D1465 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A4705A122C3E7510002D1465 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A4705A142C3E751A002D1465 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A4705A162C3E78E9002D1465 /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4705A0B2C3E7025002D1465 /* FirebaseAuth in Frameworks */,
+				A4705A112C3E7025002D1465 /* FirebaseStorage in Frameworks */,
+				A4705A0D2C3E7025002D1465 /* FirebaseFirestore in Frameworks */,
+				A4705A0F2C3E7025002D1465 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +102,7 @@
 		A47059C92C3E5947002D1465 = {
 			isa = PBXGroup;
 			children = (
-				A47059D42C3E5947002D1465 /* RestaurantMenuApp */,
+				A47059D42C3E5947002D1465 /* RestaurantMenu-App */,
 				A47059E52C3E5949002D1465 /* RestaurantMenuAppTests */,
 				A47059EF2C3E5949002D1465 /* RestaurantMenuAppUITests */,
 				A47059D32C3E5947002D1465 /* Products */,
@@ -91,15 +119,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A47059D42C3E5947002D1465 /* RestaurantMenuApp */ = {
+		A47059D42C3E5947002D1465 /* RestaurantMenu-App */ = {
 			isa = PBXGroup;
 			children = (
+				A4EF95442C3FA7440072224F /* Models */,
+				A4705A072C3E6E7F002D1465 /* GoogleService-Info.plist */,
+				A4705A002C3E5AA2002D1465 /* ViewModels */,
+				A47059FF2C3E5A8A002D1465 /* View */,
 				A47059D52C3E5947002D1465 /* RestaurantMenuAppApp.swift */,
-				A47059D72C3E5947002D1465 /* ContentView.swift */,
 				A47059D92C3E5949002D1465 /* Assets.xcassets */,
 				A47059DB2C3E5949002D1465 /* Preview Content */,
 			);
-			path = RestaurantMenuApp;
+			path = "RestaurantMenu-App";
 			sourceTree = "<group>";
 		};
 		A47059DB2C3E5949002D1465 /* Preview Content */ = {
@@ -127,6 +158,37 @@
 			path = RestaurantMenuAppUITests;
 			sourceTree = "<group>";
 		};
+		A47059FF2C3E5A8A002D1465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4705A012C3E5AB8002D1465 /* AdminView.swift */,
+				A4705A032C3E5AE0002D1465 /* WelcomeView.swift */,
+				A4705A052C3E5D61002D1465 /* HomeView.swift */,
+				A4705A162C3E78E9002D1465 /* HomeContentView.swift */,
+				A4705A122C3E7510002D1465 /* MapView.swift */,
+				A4705A142C3E751A002D1465 /* InfoView.swift */,
+				A45169482C412664001CC929 /* MenuItemsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4705A002C3E5AA2002D1465 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A45169462C4125B9001CC929 /* DataService.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A4EF95442C3FA7440072224F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A45169422C41251D001CC929 /* Category.swift */,
+				A45169442C41252B001CC929 /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +205,12 @@
 			dependencies = (
 			);
 			name = RestaurantMenuApp;
+			packageProductDependencies = (
+				A4705A0A2C3E7025002D1465 /* FirebaseAuth */,
+				A4705A0C2C3E7025002D1465 /* FirebaseFirestore */,
+				A4705A0E2C3E7025002D1465 /* FirebaseFirestoreSwift */,
+				A4705A102C3E7025002D1465 /* FirebaseStorage */,
+			);
 			productName = RestaurantMenuApp;
 			productReference = A47059D22C3E5947002D1465 /* RestaurantMenuApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +283,9 @@
 				Base,
 			);
 			mainGroup = A47059C92C3E5947002D1465;
+			packageReferences = (
+				A4705A092C3E7025002D1465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A47059D32C3E5947002D1465 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +304,7 @@
 			files = (
 				A47059DD2C3E5949002D1465 /* Preview Assets.xcassets in Resources */,
 				A47059DA2C3E5949002D1465 /* Assets.xcassets in Resources */,
+				A4705A082C3E6E7F002D1465 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47059D82C3E5947002D1465 /* ContentView.swift in Sources */,
+				A4705A132C3E7510002D1465 /* MapView.swift in Sources */,
 				A47059D62C3E5947002D1465 /* RestaurantMenuAppApp.swift in Sources */,
+				A45169492C412664001CC929 /* MenuItemsView.swift in Sources */,
+				A4705A022C3E5AB8002D1465 /* AdminView.swift in Sources */,
+				A4705A062C3E5D61002D1465 /* HomeView.swift in Sources */,
+				A4705A042C3E5AE0002D1465 /* WelcomeView.swift in Sources */,
+				A4705A152C3E751A002D1465 /* InfoView.swift in Sources */,
+				A45169452C41252B001CC929 /* MenuItem.swift in Sources */,
+				A4705A172C3E78E9002D1465 /* HomeContentView.swift in Sources */,
+				A45169432C41251D001CC929 /* Category.swift in Sources */,
+				A45169472C4125B9001CC929 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,9 +502,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RestaurantMenuApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RestaurantMenu-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Las Tapas";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,9 +531,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RestaurantMenuApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RestaurantMenu-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Las Tapas";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +665,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4705A092C3E7025002D1465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4705A0A2C3E7025002D1465 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4705A092C3E7025002D1465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A4705A0C2C3E7025002D1465 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4705A092C3E7025002D1465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A4705A0E2C3E7025002D1465 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4705A092C3E7025002D1465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A4705A102C3E7025002D1465 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4705A092C3E7025002D1465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A47059CA2C3E5947002D1465 /* Project object */;
 }

@@ -18,7 +18,6 @@
 		A47059E72C3E5949002D1465 /* RestaurantMenuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059E62C3E5949002D1465 /* RestaurantMenuAppTests.swift */; };
 		A47059F12C3E5949002D1465 /* RestaurantMenuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059F02C3E5949002D1465 /* RestaurantMenuAppUITests.swift */; };
 		A47059F32C3E5949002D1465 /* RestaurantMenuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47059F22C3E5949002D1465 /* RestaurantMenuAppUITestsLaunchTests.swift */; };
-		A4705A022C3E5AB8002D1465 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A012C3E5AB8002D1465 /* AdminView.swift */; };
 		A4705A042C3E5AE0002D1465 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A032C3E5AE0002D1465 /* WelcomeView.swift */; };
 		A4705A062C3E5D61002D1465 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4705A052C3E5D61002D1465 /* HomeView.swift */; };
 		A4705A082C3E6E7F002D1465 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4705A072C3E6E7F002D1465 /* GoogleService-Info.plist */; };
@@ -63,7 +62,6 @@
 		A47059EC2C3E5949002D1465 /* RestaurantMenuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantMenuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47059F02C3E5949002D1465 /* RestaurantMenuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuAppUITests.swift; sourceTree = "<group>"; };
 		A47059F22C3E5949002D1465 /* RestaurantMenuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A4705A012C3E5AB8002D1465 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
 		A4705A032C3E5AE0002D1465 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A4705A052C3E5D61002D1465 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A4705A072C3E6E7F002D1465 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 		A47059FF2C3E5A8A002D1465 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A4705A012C3E5AB8002D1465 /* AdminView.swift */,
 				A4705A032C3E5AE0002D1465 /* WelcomeView.swift */,
 				A4705A052C3E5D61002D1465 /* HomeView.swift */,
 				A4705A162C3E78E9002D1465 /* HomeContentView.swift */,
@@ -335,7 +332,6 @@
 				A4705A132C3E7510002D1465 /* MapView.swift in Sources */,
 				A47059D62C3E5947002D1465 /* RestaurantMenuAppApp.swift in Sources */,
 				A45169492C412664001CC929 /* MenuItemsView.swift in Sources */,
-				A4705A022C3E5AB8002D1465 /* AdminView.swift in Sources */,
 				A4705A062C3E5D61002D1465 /* HomeView.swift in Sources */,
 				A46955882C4791010012C488 /* MenuItemDetailView.swift in Sources */,
 				A4705A042C3E5AE0002D1465 /* WelcomeView.swift in Sources */,

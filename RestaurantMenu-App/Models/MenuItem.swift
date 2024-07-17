@@ -2,7 +2,7 @@
 //  MenuItem.swift
 //  RestaurantMenuApp
 //
-//  Created by Melike Sultan CAN on 12.07.2024.
+//  Created by Melike Sultan CAN.
 //
 
 import Foundation

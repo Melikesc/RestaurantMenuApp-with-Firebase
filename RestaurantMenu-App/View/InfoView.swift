@@ -2,7 +2,7 @@
 //  InfoView.swift
 //  RestaurantMenuApp
 //
-//  Created by Melike Sultan CAN on 10.07.2024.
+//  Created by Melike Sultan CAN.
 //
 
 import SwiftUI
@@ -52,7 +52,7 @@ struct InfoView: View {
                     HStack {
                         Image(systemName: "phone")
                             .foregroundColor(.black)
-                        Text("+90 212 526 46 46")
+                        Text("+90 000 000 00 00")
                             .font(.body)
                             .foregroundColor(.black)
                         
@@ -61,7 +61,7 @@ struct InfoView: View {
                     HStack {
                         Image(systemName: "envelope")
                             .foregroundColor(.black)
-                        Text("info@lastapas.com")
+                        Text("info@x.com")
                             .font(.body)
                             .foregroundColor(.black)
                     }
@@ -71,7 +71,7 @@ struct InfoView: View {
                             .foregroundColor(.black)
                             .font(.title3)
                         
-                        Text("Alemdar Mahallesi \nÇataçeşme Sk. No:5\n Sultanahmet/İstanbul")
+                        Text("X Mahallesi \nX Sk. No:5\n X/İstanbul")
                             .font(.body)
                             .foregroundColor(.black)
                             .multilineTextAlignment(.leading)
@@ -85,7 +85,7 @@ struct InfoView: View {
                             .resizable()
                             .frame(width: 20, height: 20)
                             
-                        Text("las.tapasrestaurant")
+                        Text("restaurantigname")
                             .font(.body)
                             .foregroundColor(.black)
                     }

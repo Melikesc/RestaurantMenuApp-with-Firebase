@@ -2,7 +2,7 @@
 //  RestaurantMenuAppUITestsLaunchTests.swift
 //  RestaurantMenuAppUITests
 //
-//  Created by Melike Sultan CAN on 10.07.2024.
+//  Created by Melike Sultan CAN.
 //
 
 import XCTest

@@ -17,16 +17,16 @@ struct InfoView: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack(spacing: 50) {
-                // Restoran logosu (örnek olarak bir resim)
+                
                 Image("restaurant_logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 100)
-                    .padding(.top, 80) // Logoyu biraz aşağıdan başlatıyoruz
+                    .padding(.top, 80)
                 
                 
                     
-                VStack(spacing: 10) { // VStack aralığını azaltmak için spacing kullanıyoruz
+                VStack(spacing: 10) {
                     Text("Geleneksel tariflere göre en kaliteli malzemeler kullanılarak büyük bir tutku ile servis edilmiş eşsiz Osmanlı ve Akdeniz mutfağının ve enfes hizmetimizin tadını çıkarın.")
                         .font(.system(size: 20))
                         .foregroundColor(Color(.customBrown))
@@ -81,9 +81,9 @@ struct InfoView: View {
                     
                     
                     HStack {
-                        Image("insta") // Instagram ikonunu projeye eklediğinizi varsayıyoruz
+                        Image("insta")
                             .resizable()
-                            .frame(width: 20, height: 20) // İkon boyutunu ayarlayın
+                            .frame(width: 20, height: 20)
                             
                         Text("las.tapasrestaurant")
                             .font(.body)
@@ -102,7 +102,7 @@ struct InfoView: View {
                         .frame(width: UIScreen.main.bounds.width * 0.9, height: 200)
                 )
                 
-                Spacer() // Boş alanı en alta ekliyoruz
+                Spacer() 
             }
             
         }

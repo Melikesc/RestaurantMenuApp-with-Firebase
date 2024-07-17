@@ -14,4 +14,5 @@ struct MenuItem: Identifiable, Codable {
     var name: String
     var image: String
     var detail: String?
+    var price: Double
 }
